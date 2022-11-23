@@ -2,16 +2,19 @@
 /* STYLE SHEET FOR PROJECT PAGE  */
 
 
+
+
+
 body {
 margin: 0;
 text-align: center;
 font-family: 'Raleway';
-color: #40514e;;
+color: black;
+background-color:  #C5E7DF;
 }
 
 
 .Heading-container {
-    background-color: #E0EBE8;
     position: relative;
     padding-top: 100px;
   }
@@ -34,11 +37,24 @@ p {
 }
 
 .projectimg {
-position: absolute; 
+
 
 }
 
 
+.parent {
+  display:flex;
+  flex-direction: row;
+  align-items: space-between;
+  fle
 
 
+}
 
+
+.projectdiv {
+  flex-flow: ;
+  flex-grow:5;
+  margin: 20px;
+
+}
