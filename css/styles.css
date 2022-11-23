@@ -1,10 +1,69 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Homemade+Apple&family=Inconsolata:wght@400;700&family=Zilla+Slab:wght@300&display=swap');
+
+
+:root {
+  --primary-color: #FFEFD6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
-  color: #40514e
+  font-family: WulkanDisplayRegular;
+  background-color: var(--primary-color) !important;
 
 }
+
+.navbar {
+  background-color: #FFEFD6; 
+}
+
+.navbar-inner {
+  background:transparent;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar a {
+  color: #F17970;
+ 
+}
+
+#LOGO {
+  font-family: 'Homemade Apple';
+}
+
+.nav-link{
+  color: #F17970;
+  font-family:'Zilla Slab', serif;
+  font-size: 1.5rem;
+
+}
+
+
 
 p {
     line-height: 2;
@@ -19,12 +78,22 @@ hr  {
   margin: 100px auto 100px auto;
 }
 
+
+
+
+
+
 h1 {
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: "Canela";
   font-size: 5.625rem;
-  color: #4AB19A;
-  line-height: 2;
+  color: #012d72;
+  line-height: 1;
+  font-weight: 100;
+}
+
+#basetxt {
+  color: #EAF6F6;
 }
 
 .lightbluetext {
@@ -35,17 +104,11 @@ h1 {
   padding-top: 40px;
 }
 
-.introtxt {
-  width: 30%;
-  margin:auto;
-  padding-top: 30px;
-  font-size: 1.5rem
-}
+
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Zilla Slab', serif;
   font-size: 2.5rem;
-  color: #1C6758;
   font-weight: normal;
 }
 
@@ -58,111 +121,308 @@ h3 {
   color:#11999E;
 }
 
-.top-container {
-  background-color: #E0EBE8;
-  position: relative;
-  padding-top: 100px
+
+
+
+.centered-container {
+
+background-color: #FFEFD6;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 5%;
+padding-bottom: 10%;
+
 }
 
-.top-cloud {
-  position: absolute;
-  right: 20%;
-  top: 10%
+.lineoftxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 15%;
-  top: 50%
+.logoline {
+  display: flex;
+  width: 100%;
+  height: 30%;
+ padding: top 30px;
+ padding-bottom: 30px;
+ align-items: center;
+ justify-content: center;
+ 
 }
 
-.skill-row {
+.flextxtstyled:nth-last-of-type(1) {
+justify-self: center;
+font-size: 2.5rem;
+font-family: 'Homemade Apple', cursive;
+padding-top: 3%;
+overflow-wrap: break-word;
+}
+
+.outerdivtxt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.smalltxt {
+ display: flex;
+ flex-grow: 1;
+ position: relative;
+  align-content: flex-end;
+  z-index: 1000;
+  font-size: 2rem;
+  left: 45%;
+  top: 35%;
+  rotate: 10deg;
+
+}
+
+
+
+
+.flextxt {
+    justify-content: center;
+    align-self: center;
+    position: static;
+    display: inline;
+    overflow: visible;
+    height: auto;
+    max-width: none;
+    margin-bottom: 0;
+    padding-right: 15px;
+    font-family: 'Zilla Slab', serif;
+    color: #002d72;
+    font-size: 5em;
+    line-height: 1.3em;
+    font-weight: 300;
+
+}
+
+.recipe {
+display:inline-block;
+align-self: flex-end;
+justify-self: flex-end ;
+text-decoration: none;
+
+}
+
+.flextxlogo {
+    position: static;
+    display: inline-block;
+    overflow: visible;
+    height: auto;
+    max-width: none;
+    margin-bottom: 0;
+    padding-right: 15px;
+    font-family: 'Canela',sans-serif;
+    color: #002d72;
+    font-size: 3em;
+    line-height: 1.3em;
+    font-weight: 300;
+
+}
+
+.cheftxt {
+  display: flex;
+  flex-direction: row;
+}
+
+.fleximg {
+    position: static;
+    display: inline-block;
+    cursor: help;
+  align-self: flex-end;
+  margin-left: 5%;
+
+}
+
+.fleximage {
+  display: flex;
+  height:5rem; 
+  width:5rem;
+  align-self: flex-start;
+}
+
+.flextxtstyled {
+  color: #F17970;
+  font-family: 'Homemade Apple', cursive;
+  display: flex;
+}
+
+
+
+/* About me */
+
+
+.containeraboutmemain {
+
+background-color: #FFEFD6;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 10%;
+
+
+}
+
+.pictureaboutme {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.quote {
+  margin: 5%;
+}
+
+
+
+.containerrow {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0 5% 0 5%;
+}
+
+.colhalf {
+  display: flex;
+  flex-direction: column;
   width: 50%;
-  margin:100px auto 100px auto;
-  text-align: left;;
+  justify-content: center;
+  align-items: center;
+}
 
+.signature {
+  color: #F17970;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 2rem;
+  align-items: flex-end;
+  margin-left: 55%;
+  margin-bottom: 5%;
 
 }
 
-.skill-image {
-  width: 25%;
-  float: left;
-  margin-right:30px
+.colheader {
+  width: 80%;
+  justify-content: center;
+     font-family: 'Zilla Slab', serif;
 }
 
-.skill-image01 {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
+.aboutmetxt {
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 5px 5% 0 5%;
+  font-family: 'Zilla Slab', serif;
 }
 
-.profilepic {
-  width: 15%;
-  margin-top: 50px;
+
+/* Skills section cards */
+
+
+.cardcontainer {
+  width: 100%;
+  min-height: 80vh;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 90px;
 }
 
-.btn {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 8px;
-  font-family:Merriweather ;
-  color: #ffffff;
-  font-size: 20px;
-  background: #4AB19A;
-  padding: 10px 20px 10px 20px;
-  border-top: solid #4AB19A 0;
-  border-bottom: solid #4AB19A 0;
-  text-decoration: none;
-
-
-
-
+.Cardsskills {
+  background-color: #FFEFD6;
 }
 
-.btn:hover {
-  background: #21846e;
-  text-decoration: none;
+.cardrow {
+  width: 80%;
+  margin: auto;
 }
 
-.getintouchtxt {
-margin: 20px auto 80px auto;
-  width: 40%;
-
+.cardheader {
+  width:60%;
+  text-align: center;
+  margin: auto;
 }
 
-.middle-container {
-
-}
-
-.bottom-container {
-background-color: #C5E7DF;
-padding: 50px 0 20px;
-margin-top: 80px;
+.cardheader h2 {
+  padding-top: 30px;
 
 }
 
-.bottomtxt {
-  font-size: .7rem;
-  color: #4AB19A;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.myskill {
+    color: #F17970;
 }
 
-.footer-link {
+.umyskill {
+   font-family: 'Zilla Slab', serif;
+   font-size: 2rem;
+   padding:3%;
+}
+
+.cardheader p {
+  margin-top:15px;
+  line-height: 1.5;
+}
+
+.contentsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  flex: 1;
+  margin: 20px 20px;
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0, 0.2);
+}
+
+.cardtext {
+  padding: 8%;
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.3rem;
 
 }
 
-a {
-  color: #e4f9f5;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
+
+.contentsection .card img {
+  width:100%;
+  height: auto;
 }
 
-a:hover {
-  color: #EAF6F6;
+.contentsection .card h3 {
+  margin:15px 0px;
+  color: #F17970;
 }
+
+.contentsection .card p {
+line-height: 1.5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -229,5 +489,21 @@ position:absolute;
 
 
   
+
+
+@media screen and (max-width: 991px) 
+{
+    .hidesmall {display: none;}
+    .contentsection {flex-direction: column;}
+    .containerrow {flex-direction: column;}
+    .colhalf {width: 100%;}
+    .colreverse {flex-direction: column-reverse !important;} 
+    .flextxtsmall { font-size: 2rem;}
+    .signature { margin: 0;}
+    .cardheader {width: 100%;}
+    .umyskill { font-size: 1.5rem; padding: 0 30px 0 30px;}
+    }
+
+
 
 

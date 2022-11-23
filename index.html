@@ -5,13 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Chris Edwards</title>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/45786f1580.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/gifchef.gif">
+  <link href="//db.onlinewebfonts.com/c/4a24899e94d8236f671c1090cd9e068c?family=Canela-Regular" rel="stylesheet"
+    type="text/css" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<link rel="stylesheet" href="css/styles.css">
-<link rel="icon" href="images/favicon.ico">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -19,14 +22,19 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-light">
+
+  <!--------------------- NAVBAR ---------------------------->
+
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Chris Edwards</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <a class="navbar-brand" id="LOGO" href="#">Chrisedwards</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="active" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -41,43 +49,213 @@
               Socials
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">LinkedIn</a></li>
-              <li><a class="dropdown-item" href="#">Twitter</a></li>
-              <li><a class="dropdown-item" href="#">Instagram</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/chris-edwards-21341590/">LinkedIn</a></li>
+              <li><a class="dropdown-item" href="https://twitter.com/chriselovescode">Twitter</a></li>
+              <li><a class="dropdown-item" href="https://www.instagram.com/thewaltzingmatildaboat/?hl=en">Instagram</a>
+              </li>
             </ul>
           </li>
-         
+
         </ul>
-   
+
       </div>
+    </div>
     </div>
   </nav>
 
 
 
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud">
-    <h1>I'm Chris</h1>
-    <h2 class="lightbluetext"> a junior web developer.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
-    <img class="mountain" src="images/mountain.png" alt="mountain">
-  </div>
+  <!-- Landing Page -->
 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profilepic" src="images/circlepizza.png" alt="Profile picture me">
-      <h2 class="lightbluetext">Hello!</h2>
-      <p class='introtxt'>I'm currently studying & learning web development at Manchester Codes </p>
+
+  <section>
+
+    <div class="centered-container">
+
+
+      <div class="logoline">
+        <div class="flextxtstyled flextxtsmall">Chrisedwards</div>
+      </div>
+
+
+
+      <div class="outdivtxt">
+
+        <div class="lineoftxt">
+          <div class="flextxt flextxtsmall"> hello, my name is chris,</div>
+          <div class="flextxtstyled smalltxt hidesmall">Matured in New Zealand</div>
+          <div class="flextxt flextxtsmall"> i'm a junior developer raised in manchester. <a
+              href="https://en.wikipedia.org/wiki/New_Zealand" target="_blank" rel="noopenernoreferrer"><i
+                class="fa-solid fa-kiwi-bird fa-xs hidesmall" style="color:#F17970"></i></a>
+          </div>
+        </div>
+
+        <div>
+
+
+        </div>
+
+      </div>
+
+      <div class="cheftxt">
+        <div class="flextxt flextxtsmall">previously a professional chef</div>
+        <a href=#about-me">
+          <div class="fleximg hidesmall"> <img src="images/gifchef.gif" alt="cartoon chef"
+              style="height:6rem; width:8rem;">
+          </div>
+        </a>
+      </div>
+
+      <div class="flextxt flextxtsmall">now i'm hungry to code.</div>
+
+      <div>
+
+        <a href="https://therecipecritic.com/lasagna-recipe/" target="_blank" rel="noopenernoreferrer">
+          <div class="flextxtstyled recipe flextxtsmall">heres my favorite recipe. x</div>
+      </div>
+      </a>
+
+
+    </div>
+
+
+  </section>
+
+
+
+  <section class="about-me">
+
+    <div class="containeraboutmemain">
+
+
+      <div class="containerrow">
+        <div class="colhalf">
+          <img src="images/happychef.jpg" alt="A picture of me as a chef" class="pictureaboutme">
+        </div>
+
+        <div class="colhalf text">
+          <div class="colheader">
+            <h2 class="quote">good food is very often, even most often, simple food.</h2>
+            <div class="signature">Anthony bourdain.</div>
+          </div>
+          <p class="aboutmetxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur adipisci, alias
+            magni, maiores
+            voluptatem nam at accusamus soluta commodi odio illum voluptatum eveniet, quisquam velit facilis deserunt
+            suscipit perspiciatis! Quidem.
+            Sit cum molestiae consequatur possimus voluptate quaerat, accusamus enim magnam corrupti consectetur dicta.
+          </p>
+        </div>
+      </div>
+
+      <div class="containerrow colreverse">
+        <div class="colhalf text">
+          <div class="colheader">
+            <h2 class="quote">creativity is intelligence having FUN.</h2>
+            <div class="signature">Albert Einstein</div>
+          </div>
+          <p class="aboutmetxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur adipisci, alias
+            magni, maiores
+            voluptatem nam at accusamus soluta commodi odio illum voluptatum eveniet, quisquam velit facilis deserunt
+            suscipit perspiciatis! Quidem.
+            Sit cum molestiae consequatur possimus voluptate quaerat, accusamus enim magnam corrupti consectetur dicta.
+          </p>
+        </div>
+        <div class="colhalf">
+          <img src="images/boat1.JPEG" alt="A picture of me as a chef" class="pictureaboutme boat">
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="Cardsskills">
+    <div class="cardheader">
+      <h2 class="myskill">My Skills</h2>
+      <p class="umyskill">so here is some of what I have been learning so far! I am always open to new technologies to
+        learn!</p>
+    </div>
+
+    <div class="cardcontainer">
+
+
+
+      <div class="contentsection">
+
+        <div class="card">
+          <img src="images/hjs.jpeg" alt="">
+          <h3 class="umyskill">Frontend</h3>
+          <p class="cardtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto inventore veritatis,
+            deserunt error
+            quisquam ut optio quidem qui sit labore consectetur ipsa aspernatur cum dolore vitae, placeat nesciunt
+            earum. Dolor.
+            Adipisci dolorum, facilis libero nulla, aperiam quo eos provident quae eveniet ipsa dignissimos, est
+            mollitia! Voluptatibus, blanditiis nostrum. Corporis suscipit assumenda quisquam et laboriosam doloremque
+            sint dolor accusamus, exercitationem natus?</p>
+        </div>
+
+        <div class="card">
+          <img src="images/2-2.jpeg" alt="">
+          <h3 class="umyskill">Multi-Platform</h3>
+          <p class="cardtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto inventore veritatis,
+            deserunt error
+            quisquam ut
+            optio quidem qui sit labore consectetur ipsa aspernatur cum dolore vitae, placeat nesciunt earum. Dolor.
+            Adipisci dolorum, facilis libero nulla, aperiam quo eos provident quae eveniet ipsa dignissimos, est
+            mollitia!
+            Voluptatibus, blanditiis nostrum. Corporis suscipit assumenda quisquam et laboriosam doloremque sint dolor
+            accusamus, exercitationem natus?</p>
+        </div>
+
+        <div class="card">
+          <img src="images/mongo.jpeg" alt="">
+          <div class="cardbulk">
+            <h3 class="umyskill">Backend</h3>
+            <p class="cardtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto inventore veritatis,
+              deserunt error
+              quisquam ut
+              optio quidem qui sit labore consectetur ipsa aspernatur cum dolore vitae, placeat nesciunt earum. Dolor.
+              Adipisci dolorum, facilis libero nulla, aperiam quo eos provident quae eveniet ipsa dignissimos, est
+              mollitia!
+              Voluptatibus, blanditiis nostrum. Corporis suscipit assumenda quisquam et laboriosam doloremque sint
+              dolor
+              accusamus, exercitationem natus?</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
     </div>
 
 
 
 
-    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+
+
+  <!-- 
+  <div class="skillscontainer">
+
     <div class="skills">
       <h2>What I am learning</h2>
-    
-
     </div>
 
 
@@ -92,22 +270,27 @@
       <img class="skill-image01" src="images/designgif.gif" alt="Skills image">
       <h3>Multi-Platform knowledge</h3>
       <p>I'm learning how to create your website to run across devices using the latest technologies available.</p>
-
     </div>
 
-    <hr>
 
 
+  <!-- </div> -->
 
+  <hr>
 
-    <h2>Get in Touch</h2>
-    <h3>I’m currently on the hunt for knowledge!</h3>
-    <p class="getintouchtxt">If you have a internship, a job role in tech or just fancy saying hey, then get in touch.</p>
+  <h2>Get in Touch</h2>
+  <h3>I’m currently on the hunt for knowledge!</h3>
+  <p class="getintouchtxt">If you have a internship, a job role in tech or just fancy saying hey, then get in touch.
+  </p>
   </div>
 
 
 
   <a class="btn" href="mailto:chrisedwards96@outlook.com">CONTACT ME</a>
+  <a class="btn" href="mailto:chrisedwards96@outlook.com">GET MY CV</a>
+
+
+
 
 
 
@@ -120,6 +303,8 @@
   </div>
 
   <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 
 </body>
